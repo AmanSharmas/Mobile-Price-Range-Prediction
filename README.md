@@ -1,6 +1,6 @@
 # Mobile-Price-Range-Prediction
 
-***Problem Statement:***
+# Problem Statement:
 
 In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is.
 
@@ -16,7 +16,7 @@ To build a machine learning model, we first perform EDA with various plots for b
 
 And then we split it into a training set and a test set and applied various machine learning algorithms using the training data to train the model. Finally, we evaluated the model's performance on the test data to see how well it predicted sales.
 
-**Analysis Performed:**
+# Analysis Performed:
 
 ![230047363-983e5e91-97a8-4de5-a66f-e778bf98d2eb](https://user-images.githubusercontent.com/122456255/234090846-627d360c-8064-4cd3-ad75-1aef98d78faf.png)
 
