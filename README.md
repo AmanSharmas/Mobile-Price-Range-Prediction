@@ -68,7 +68,7 @@ Heatmap
 Pair plot
 
 
-# ML Models used for training & testing:
+# ML Models used for training & testing :
 
 Logistic Regression
 KNN Classifier
@@ -79,7 +79,7 @@ CatBoost Classifier
 SVM Classifier
 
 
-# Insights from EDA impacting business:
+# Insights from EDA impacting business :
 
 Phones which are not having 3G don't have 4G connectivity as well.
 
@@ -97,7 +97,7 @@ Adequate amount of ram should be in lower range phones too for stabilized perfor
 
 There are many phones with no front cam through out all price ranges, atleast it should be present in all very high cost phones.
 
-# ML Model selected for deployment: Logistic Regression
+# ML Model selected for deployment: Logistic Regression :
 
 Logistic Regression is a “Supervised machine learning” algorithm that can be used to model the probability of a certain class or event. It is used when the data is linearly separable and the outcome is binary or dichotomous in nature.
 
@@ -113,12 +113,12 @@ Interpretable results: Logistic regression provides coefficients for each indepe
 
 Can handle both categorical and continuous variables: Logistic regression can handle both categorical and continuous independent variables, making it a versatile method for modeling binary outcomes.
 
-# Limitations:
+# Limitations :
 
 Assumes linearity: Logistic regression assumes a linear relationship between the independent variables and the log odds of the dependent variable. If this assumption is violated, the results may be inaccurate.
 
 Sensitive to outliers: Logistic regression can be sensitive to outliers, which can have a significant impact on the results.
 
-# Suggestion:
+# Suggestion :
 
 When we are dealing with huge datasets & above disavantages starts effecting the model, then using CatBoost Classifier can provide better results.
