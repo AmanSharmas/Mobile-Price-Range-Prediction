@@ -1,12 +1,12 @@
 # Mobile-Price-Range-Prediction
 
-Problem Statement:
+#Problem Statement:
 
 In the competitive mobile phone market companies want to understand sales data of mobile phones and factors which drive the prices. The objective is to find out some relation between features of a mobile phone(eg:- RAM, Internal Memory, etc) and its selling price. In this problem, we do not have to predict the actual price but a price range indicating how high the price is.
 
-Project Summary :
+#Project Summary :
 
-Problem Overview
+#Problem Overview:
 
 Mobile Price Range Prediction data is a data set containing information regarding RAM, Camera, Mobile Weight, Price Range of different phones.
 
@@ -16,7 +16,7 @@ To build a machine learning model, we first perform EDA with various plots for b
 
 And then we split it into a training set and a test set and applied various machine learning algorithms using the training data to train the model. Finally, we evaluated the model's performance on the test data to see how well it predicted sales.
 
-Analysis Performed:
+#Analysis Performed:
 
 ![230047363-983e5e91-97a8-4de5-a66f-e778bf98d2eb](https://user-images.githubusercontent.com/122456255/234090846-627d360c-8064-4cd3-ad75-1aef98d78faf.png)
 
@@ -46,7 +46,7 @@ Step 9: Model Validation & Evaluation
 
 Step 10: Predictions & Saving model using pickel library.
 
-Libraries used in EDA & Machine Learning:
+#Libraries used in EDA & Machine Learning:
 
 Pandas
 Numpy
@@ -57,7 +57,7 @@ Sklearn
 Scipy
 
 
-Graphs used for representation:
+#Graphs used for representation:
 
 Bar plot
 Pie plot
@@ -68,7 +68,7 @@ Heatmap
 Pair plot
 
 
-ML Models used for training & testing:
+#ML Models used for training & testing:
 
 Logistic Regression
 KNN Classifier
@@ -79,7 +79,7 @@ CatBoost Classifier
 SVM Classifier
 
 
-Insights from EDA impacting business:
+#Insights from EDA impacting business:
 
 Phones which are not having 3G don't have 4G connectivity as well.
 
@@ -103,7 +103,7 @@ Logistic Regression is a “Supervised machine learning” algorithm that can be
 
 Although it is said Logistic regression is used for Binary Classification, it can be extended to solve multiclass classification problems as well.
 
-Advantages:
+#Advantages:
 
 Simple and easy to implement: Logistic regression is a relatively simple statistical method that does not require much mathematical or statistical knowledge to use.
 
@@ -113,12 +113,12 @@ Interpretable results: Logistic regression provides coefficients for each indepe
 
 Can handle both categorical and continuous variables: Logistic regression can handle both categorical and continuous independent variables, making it a versatile method for modeling binary outcomes.
 
-Limitations:
+#Limitations:
 
 Assumes linearity: Logistic regression assumes a linear relationship between the independent variables and the log odds of the dependent variable. If this assumption is violated, the results may be inaccurate.
 
 Sensitive to outliers: Logistic regression can be sensitive to outliers, which can have a significant impact on the results.
 
-Suggestion:
+#Suggestion:
 
 When we are dealing with huge datasets & above disavantages starts effecting the model, then using CatBoost Classifier can provide better results.
